@@ -30,7 +30,7 @@ public class SecondMaximumOccuranceChar {
                   c1 = ch[i];
               }
         }
-        System.out.println(c + " : " + maxcount);
+       // System.out.println(c + " : " + maxcount);
         System.out.println(c1 + " : " + secondmaxcount);
     }
 }

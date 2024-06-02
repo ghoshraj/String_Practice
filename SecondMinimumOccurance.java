@@ -4,8 +4,8 @@ public class SecondMinimumOccurance {
     public static void main(String[] args) {
         String s = "jaaraar";
         char ch [] = s.toCharArray();
-        int mincount = 10;
-        int second_mincount = 9;
+        int mincount = Integer.MAX_VALUE;
+        int second_mincount = Integer.MAX_VALUE;
         char minchar = ' ';
         char second_minchar = ' ';
         for (int i = 0; i < ch.length;i++){
@@ -19,7 +19,7 @@ public class SecondMinimumOccurance {
                 }
             }
             if (count < mincount){
-                second_mincount = count;
+                second_mincount = mincount;
                 mincount = count;
                 second_minchar = minchar;
                 minchar = ch[i];
