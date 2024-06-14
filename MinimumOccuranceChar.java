@@ -3,7 +3,7 @@ package string;
 public class MinimumOccuranceChar {
     public static void main(String[] args) {
         String s = "AA@jiajaqvvxjjjaixcijk";
-        int mincount = 4;
+        int mincount = Integer.MAX_VALUE;
         char c = ' ';
         char[]ch = s.toCharArray();
         for (int i = 0; i < ch.length; i++){
